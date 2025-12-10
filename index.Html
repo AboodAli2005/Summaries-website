@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>تلخيصات جامعية</title>
+
+   <!-- رابط الخط -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- للايقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- الناف بار -->
+    <nav>
+        <div class="container nav-inner">
+            <div class="brand">
+                <div class="logo">AUG</div>
+                <h1>تلخيصات جامعية | جامعة الازهر</h1>
+            </div>
+
+            <div class="nav-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">عن الموقع</a>
+                <a href="#contact">الاتصال</a>
+            </div>
+
+            <div class="controls">
+                <button class="theme-toggle" id="themeToggle">
+                    <i id="themeIcon" class="fa-solid fa-moon"></i>
+                    <span id="themeText">وضع داكن</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- الرئيسية -->
+        <section id="home" class="section container">
+            <h2 class="section-title">التلخيصات</h2>
+            <p class="lead">ابحث عن الملخص المطلوب أو صفّيه حسب المقرر.</p>
+
+            <div class="controls-row">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input id="searchInput" type="search" placeholder="ابحث عن تلخيص...">
+                    <button id="clearSearch"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="select-wrap">
+                    <select id="filterSelect">
+                        <option value="all">جميع المقررات</option>
+                        <option value="شبكات الحاسوب">شبكات الحاسوب</option>
+                        <option value="os">أنظمة التشغيل</option>
+                        <option value="تراكيب المنفصلة">تراكيب منفصلة</option>
+                        <option value="تصميم">تصميم المنطق الرقمي</option>
+                        <option value="جافا2">برمجة حاسوب 2</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="summariesList" class="summaries-grid"></div>
+        </section>
+
+        <!-- عن الموقع -->
+        <section id="about" class="section container">
+            <h2 class="section-title">عن الموقع</h2>
+            <p>هذا الموقع يقدم تلخيصات للطلاب مقدمة من طاقم الدعم الأكاديمي.</p>
+        </section>
+
+        <!-- الاتصال -->
+        <section id="contact" class="section container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <p>للتواصل: abood.ali.t2005@gmail.com
+                 /whatsapp:972567677406
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div>© جميع الحقوق محفوظة    |  CS-Abood-ali</div>
+            <div class="muted">تم انشاء هذا الموقع من قبل مسؤول الدعم الاكاديمي CS-Abood.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
