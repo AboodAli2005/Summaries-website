@@ -1,8 +1,8 @@
 // ===== روابط المحاضرات =====
 const summaries = [
-  { title: "تلخيص محاضرة 1", description: "بروتوكولات الشبكات", subject: "شبكات الحاسوب", file: "files/م1.pdf" },
-  { title: "تلخيص محاضرة 2", description: "الشبكات المحلية", subject: "شبكات الحاسوب", file: "files/تلخيص محاضرة 2 شبكات الحاسوب.pdf" },
-  { title: "تلخيص محاضرة 3", description: "الشبكات ", subject: "شبكات الحاسوب", file: "files/محاضرة رقم 3 تلخيص.pdf" },
+  { title: "تلخيص محاضرة 1", description: "بروتوكولات الشبكات", subject: "شبكات الحاسوب", file: "files/تلخيص محاضرة رقم 1 - شبكات الحاسوب  (2).pdf" },
+  { title: "تلخيص محاضرة 2", description: "الشبكات المحلية", subject: "شبكات الحاسوب", file: "files/تلخيص محاضرة رقم2 - شبكات الحاسوب - Cs .pdf" },
+  { title: "تلخيص محاضرة 3", description: "الشبكات ", subject: "شبكات الحاسوب", file: "files/تلخيص محاضرة رقم 3 - شبكات الحاسوب ..pdf" },
   { title: "تلخيص شابتر 1", description: "مفاهيم اساسية", subject: "os", file: "files/Operating System _chap1.pdf" },
   { title: "تلخيص شابتر 1", description: "تراكيب منفصلة", subject: "تراكيب المنفصلة", file: "files/_تلخيص تراكيب منفصلة First Chapter (1).pdf" },
   { title: "تلخيص شابتر 1", description: "تصميم المنطق الرقمي", subject: "تصميم", file: "files/منطق رقمي شابتر 1 (1).pdf" },
